@@ -4,7 +4,7 @@ Este repositorio muestra como podemos programar una ESP32 con SR- y ocupando la 
 
 ### Descripción
 
-La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos un sensor (```HC-SR04```) para medir la distancia. Cabe aclarar que esta practica se usara en el simulador llamado [WOKWI](https://https://wokwi.com/).
+La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos un sensor (```HC-SR04```) para medir la distancia. Cabe aclarar que esta practica se usara en el simulador llamado [WOKWI](https://https://wokwi.com/) y ```localhost:1880```
 
 
 ## Material Necesario
