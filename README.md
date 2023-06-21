@@ -51,7 +51,7 @@ node-red
 
  ## Arranque de programa
 
-2. Para abrir la aplicación nos vamos algun explorador y colocamos el siguente link:    ```localhost:1880```
+Para abrir la aplicación nos vamos algun explorador y colocamos el siguente link:    ```localhost:1880```
 
 
 ## Instalación de Dashboard
