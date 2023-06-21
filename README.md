@@ -31,7 +31,11 @@ Para realizar esta practica necesitas lo siguiente
 ![](https://github.com/DiegoJm10/Node-red-instalcacion/blob/main/Node.js%20-%20Google%20Chrome%2014_06_2023%2005_04_00%20p.%20m..png?raw=true)
 
 3. Abrir el archivo e instalar el programa [node.js](https://nodejs.org/en)
-4. Abrir terminal en modo administrador y escribir lo siguente:
+
+
+4. Nos vamos al inicio y buscamos ```cmd``` cOmo se muestra en la imagen y damos clic en "ejecutar como administrador" y escribir lo siguente:
+![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/CMD.png?raw=true)
+
 ```
 npm install -g --unsafe-perm node-red
 ```
@@ -44,9 +48,6 @@ node-red
 ```
  ![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/node-red.png?raw=true)
 
- Despues nos vamos al inicio y buscamos ```cmd``` cmo se muestra en la imagen y damos clic en "ejecutar como administrador"
-
-![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/CMD.png?raw=true)
 
  ## Arranque de programa
 
@@ -229,7 +230,7 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ```
 2. Instalamos la libreria de **DHT sensor library for ESPx** y **ArdiunoJson** y **PubSubClient** como se muestra en la siguente imagen, dando clic en (Library Manager) y despues en el simbolo de (+)
 
-![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/libreria.png?raw=true)
+![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/LIBRERIA1.1.png?raw=true)
 
 3. Hacemos las conexiones el **ESP32** del sensor **HC-SR04**n omo se muestra en la siguiente imagen
 
