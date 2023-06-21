@@ -17,19 +17,51 @@ Para realizar esta practica necesitas lo siguiente
 - NODE-red (http://localhost:1880/#flow/214928d358894902)
 
 
-## Instrucciones
-
+# Instrucciones 
 
 ### Requisitos previos
 
-Para poder usar este repositorio necesitas entrar a la plataforma [WOKWI](https://https://wokwi.com/) y NODE-red (http://localhost:1880/#flow/214928d358894902) para esta ultima necvesitamos instalar un programa como se muestra en la siguientes imagenes. 
-Y descargamos el 18.16.0 LTS
+# Instalar Node-Red
 
-![](https://github.com/Omarcollado23/PRACTICA-5DHT-LCD-ULTRASONICO/blob/main/libreria.jpg?raw=true)
+## Pasos para instalación
 
-Despues nos vamos al inicio y buscamos ```cmd``` cmo se muestra en la imagen
+1. Entrar a la pagina  https://nodejs.org/en
+2. Descargar el archivo **18.16.0 LTS** como se muestra en la siguente imagen.
 
-![](https://github.com/Omarcollado23/PRACTICA-5DHT-LCD-ULTRASONICO/blob/main/libreria.jpg?raw=true)
+![](https://github.com/DiegoJm10/Node-red-instalcacion/blob/main/Node.js%20-%20Google%20Chrome%2014_06_2023%2005_04_00%20p.%20m..png?raw=true)
+
+3. Abrir el archivo e instalar el programa [node.js](https://nodejs.org/en)
+4. Abrir terminal en modo administrador y escribir lo siguente:
+```
+npm install -g --unsafe-perm node-red
+```
+![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/npm%20instal.png?raw=true)
+
+5. Despues comprobamos que funcione node-red con el siguente codigo: (con este mismo codigo podemos arrancar el programa siempre que lo necesitemos)
+
+```
+node-red
+```
+ ![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/node-red.png?raw=true)
+
+ Despues nos vamos al inicio y buscamos ```cmd``` cmo se muestra en la imagen y damos clic en "ejecutar como administrador"
+
+![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/CMD.png?raw=true)
+
+ ## Arranque de programa
+
+2. Para abrir la aplicación nos vamos algun explorador y colocamos el siguente link:    ```localhost:1880```
+
+
+## Instalación de Dashboard
+
+1. Abrimos la pestaña de opciones y elegimos ```Manage palette``` 
+
+![](https://github.com/DiegoJm10/Node-red-instalcacion/blob/main/Node.js%20-%20Google%20Chrome%2014_06_2023%2005_06_26%20p.%20m..png?raw=true)
+
+2. Seleccionamos **Install* y buscamos ```node-red-dashboard```.
+3. Seleccionamos ```node-red-dashboard```.
+![](https://github.com/DiegoJm10/Node-red-instalcacion/blob/main/Node.js%20-%20Google%20Chrome%2014_06_2023%2005_06_17%20p.%20m..png?raw=true)
 
 
 ### Instrucciones de preparación de entorno 
@@ -195,13 +227,13 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 }
 
 ```
-2. Instalamos la libreria de **DHT sensor library for ESPx** y **LiquidCrystal I2C** como se muestra en la siguente imagen, dando clic en (Library Manager) y despues en el simbolo de (+)
+2. Instalamos la libreria de **DHT sensor library for ESPx** y **ArdiunoJson** y **PubSubClient** como se muestra en la siguente imagen, dando clic en (Library Manager) y despues en el simbolo de (+)
 
-![](https://github.com/Omarcollado23/PRACTICA-5DHT-LCD-ULTRASONICO/blob/main/libreria.jpg?raw=true)
+![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/libreria.png?raw=true)
 
-3. Hacemos las conexiones el **ESP32** del sensor **HC-SR04**, el sensor **DHT22** y el **LCD** como se muestra en la siguiente imagen
+3. Hacemos las conexiones el **ESP32** del sensor **HC-SR04**n omo se muestra en la siguiente imagen
 
-![](https://github.com/Omarcollado23/PRACTICA-5DHT-LCD-ULTRASONICO/blob/main/conexiones.jpg?raw=true)
+![](https://github.com/Omarcollado23/PRACTICA-7-CON-ULTRASONICO/blob/main/conexion.png?raw=true)
 
 ### Instrucciónes de operación
 
@@ -209,7 +241,9 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 2. Visualizar los datos en el monitor serial.
 3. Colocar la distancia dando *doble click* al sensor **HC-SR04** 
 
-  
+### Instrucciones para hacer la conexión con NODE-RED
+
+Abrimos una nueva pestaña en el navegador que utilizas e insertamos en la barra de navegación el suiguiente link (localhost:1880)
 
 ## Resultados
 
